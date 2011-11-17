@@ -1,0 +1,6 @@
+{
+    "extends": {
+        "location": "https://raw.github.com/pinf/platform-js/v0.1.0/package.declarations.json"
+    },
+    "main": "main.js"
+}

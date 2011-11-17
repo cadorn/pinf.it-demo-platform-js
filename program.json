@@ -1,0 +1,18 @@
+{
+    "extends": {
+        "location": "https://raw.github.com/pinf/platform-js/v0.1.0/program.declarations.json"
+    },
+    "boot": "app/",
+    "implements": {
+        "github.com/pinf/deploy-js/-meta/deploy/1": {
+            "service": "pinf.it"
+        }
+    },
+    "packages": {
+        "app/": {
+            "locator": {
+                "location": "."
+            }
+        }
+    }
+}
